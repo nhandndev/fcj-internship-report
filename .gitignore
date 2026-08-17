@@ -1,0 +1,85 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Temp files
+*~
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node
+node_modules/
+dist/
+build/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.env
+.env.*
+.venv/
+
+# Go / Java / .NET common
+bin/
+obj/
+target/
+*.class
+.gradle/
+
+# Hugo / Static site generators
+public/
+resources/_gen/
+.hugo_build.lock
+.hugo_cache/
+
+# Terraform / Infrastructure as Code
+.terraform/
+*.tfstate
+*.tfstate.backup
+crash.log
+.terraform.lock.hcl
+
+# Serverless / AWS SAM
+.aws-sam/
+.serverless/
+
+# AWS credentials & local config
+.aws/credentials
+.aws/config
+*.pem
+*.p12
+
+# Test / coverage
+coverage/
+coverage-final.json
+.nyc_output/
+
+# Sensitive / env
+secrets.*
+credentials.*
+apikeys.*
+
+# Misc
+*.zip
+*.tar.gz
+.idea/
