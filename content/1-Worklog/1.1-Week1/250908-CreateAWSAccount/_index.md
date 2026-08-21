@@ -1,5 +1,5 @@
 ---
-title: "Day 1 Lab Title"
+title: "Create AWS Account"
 weight: 1
 chapter: false
 pre: " <b> 1.1.1 </b> "
@@ -7,29 +7,31 @@ pre: " <b> 1.1.1 </b> "
 
 ### Overview
 
-Provide a brief description of the lab/activity or what was learned today. Explain the goals and what resources will be used.
+This note records the preparation steps for creating and securing a new AWS account for the FCJ learning labs. The main goal is to understand the AWS account registration flow, the required identity and billing information, and the first security checks after signing in.
 
-### Section 1: [Topic Title]
+### Main Activities
 
-Detail the first part of your activity here. You can add bullet points, steps, or code snippets:
-- Step 1: Description of step 1.
-- Step 2: Description of step 2.
+* Reviewed the AWS account creation process.
+* Learned why billing information is required even when using Free Tier resources.
+* Checked the AWS Management Console sign-in flow.
+* Noted the importance of enabling MFA for the root user.
+* Prepared the account for later labs such as IAM, VPC, and EC2.
 
-```bash
-# Example command block
-echo "Hello Cloud Journey"
-```
+### Key Notes
 
-### Section 2: [Topic Title]
+* The root user should only be used for account-level tasks.
+* Daily lab activities should be performed with IAM users or roles.
+* Cost monitoring should be configured early to avoid unexpected charges.
+* Account credentials must be protected carefully.
 
-Detail the second part of your activity here. Add any diagrams, tables, or screenshots as needed:
-*   [Detail 1]
-*   [Detail 2]
+### Reference Used
 
----
+* AWS Study Group lab: Create new AWS Account
+* AWS Management Console
+* FCJ learning roadmap
 
 ### Summary of Today's Learning
 
-Summary of key takeaways from today:
-1.  **Key Learning Point 1**: Explanation of what was achieved.
-2.  **Key Learning Point 2**: Explanation of what was achieved.
+1. **AWS Account setup**: Understood the basic steps required to create a new AWS account.
+2. **Initial security**: Learned that MFA and avoiding root user usage are important first steps.
+3. **Lab preparation**: Prepared the account context for upcoming IAM and networking labs.
