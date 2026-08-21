@@ -9,7 +9,7 @@ pre: " <b> 1.1. </b> "
 * Tìm hiểu về doanh nghiệp AWS, chương trình FCJ và đội ngũ mentor.
 * Làm quen với cấu trúc website báo cáo thực tập được xây dựng bằng Hugo.
 * Xem video module và học trước nội dung Explore AWS Services trước khi làm lab.
-* Hoàn thành các lab AWS đầu tiên, bao gồm AWS IAM và Amazon VPC.
+* Hoàn thành lab AWS IAM đầu tiên và chuẩn bị cho lab Amazon VPC.
 
 ### Nội dung học tập trong tuần:
 - [Tạo mới **AWS Account**](250908-createawsaccount/)
@@ -17,7 +17,7 @@ pre: " <b> 1.1. </b> "
 - [Xem **video module AWS** và chuẩn bị ghi chú](250819-awsmodulevideos/)
 - [Quản lý chi phí và gửi yêu cầu hỗ trợ trên AWS](250820-awsaccountbudgetssupport/)
 - [Quản lý truy cập với AWS Identity and Access Management (**AWS IAM**)](250821-iamaccesscontrol/)
-- [Triển khai hạ tầng mạng với *Amazon Virtual Private Cloud* (**Amazon VPC**)](250822-amazonvpc/)
+- Chuẩn bị học cách triển khai hạ tầng mạng với *Amazon Virtual Private Cloud* (**Amazon VPC**)
 
 ### Công việc hằng ngày:
 | **Ngày** | **Công việc** | **Ngày bắt đầu** | **Ngày hoàn thành** | **Nguồn tài liệu** | **Trạng thái** |
@@ -27,7 +27,7 @@ pre: " <b> 1.1. </b> "
 | 2 | - Xem video học AWS trên YouTube <br> - Xem lộ trình module Explore AWS Services <br> - Chuẩn bị ghi chú cho các dịch vụ AWS cơ bản | 19/08/2026 | 19/08/2026 | [Ghi chú video module AWS](250819-awsmodulevideos/) | Hoàn thành |
 | 3 | - Tìm hiểu cách tạo mới AWS Account <br> - Xem nội dung AWS Budgets để kiểm soát chi phí <br> - Xem quy trình gửi yêu cầu hỗ trợ bằng AWS Support | 20/08/2026 | 20/08/2026 | [AWS Account, Budgets và Support](250820-awsaccountbudgetssupport/) | Hoàn thành |
 | 4 | - Hoàn thành lab AWS IAM <br> - Tạo IAM Group và IAM User <br> - Tạo IAM Role và thực hành Switch Role <br> - Dọn dẹp tài nguyên IAM lab | 21/08/2026 | 21/08/2026 | [AWS IAM Access Control](250821-iamaccesscontrol/) | Hoàn thành |
-| 5 | - Học khái niệm Amazon VPC <br> - Tìm hiểu quy trình tạo tài nguyên mạng VPC <br> - Xem luồng subnet, route table, internet gateway và security group | 22/08/2026 | 22/08/2026 | [Ghi chú học Amazon VPC](250822-amazonvpc/) | Đang thực hiện |
+| 5 | - Chuẩn bị cho lab Amazon VPC <br> - Xem phần giới thiệu module VPC <br> - Xem trước luồng bài lab trước khi thực hành hands-on | 22/08/2026 | 22/08/2026 |  | Đang thực hiện |
 | 6 |  | 23/08/2026 |  |  |  |
 
 ### Kết quả đạt được tuần 1:
@@ -35,4 +35,4 @@ pre: " <b> 1.1. </b> "
 * Làm quen với website báo cáo thực tập bằng Hugo và cập nhật cấu trúc worklog tuần 1.
 * Xem video module AWS và chuẩn bị ghi chú trước khi bắt đầu làm lab.
 * Hoàn thành lab AWS IAM gồm IAM Group, IAM User, IAM Role, Switch Role và dọn dẹp tài nguyên vào ngày 21/08/2026.
-* Bắt đầu học khái niệm Amazon VPC và quy trình thiết lập VPC vào ngày 22/08/2026.
+* Chuẩn bị cho lab Amazon VPC vào ngày 22/08/2026, chưa viết ghi chú lab vì chưa hoàn thành phần hands-on.

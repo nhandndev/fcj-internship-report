@@ -16,12 +16,31 @@ This note summarizes the preparation work from watching AWS learning videos and 
 * FCJ learning path and expected Week 1 lab outcomes.
 * Basic security mindset when using a cloud account.
 
+### Study Notes
+
+I used this day mainly for watching overview videos and reading the module pages before touching the AWS Console. The goal was not to finish a lab yet, but to understand what each service is used for.
+
+The most important point I noted is that AWS services are usually connected. IAM controls access, Budgets helps control spending, VPC provides the network layer, and EC2 runs compute resources inside that network. Because of that, I should understand the basic purpose of each service before doing the hands-on steps.
+
+### Questions Prepared
+
+* What should be done with the root user after creating an AWS account?
+* When should an IAM user be used instead of the root user?
+* Why should a budget alert be created before doing labs?
+* What is the difference between a public subnet and a private subnet?
+
 ### Key Takeaways
 
 * IAM is used to control who can access AWS resources and what actions they can perform.
 * VPC provides the networking foundation for running cloud workloads.
 * AWS Budgets helps monitor spending and avoid unexpected costs.
 * AWS Support is used when users need help with account, billing, or technical issues.
+
+### References Checked
+
+* AWS Study Group Cloud Journey module pages.
+* AWS official documentation for IAM, VPC, and AWS Budgets.
+* YouTube overview videos about AWS basic services.
 
 ### Summary of Today's Learning
 

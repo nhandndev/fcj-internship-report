@@ -25,6 +25,20 @@ AWS Identity and Access Management (IAM) là dịch vụ quản lý định danh
 * Thực hành Switch Role trong AWS Management Console.
 * Dọn dẹp tài nguyên sau khi hoàn thành lab.
 
+### Ghi chú lab
+
+Tôi bắt đầu bằng phần giới thiệu IAM để phân biệt user, group, policy và role. Sau đó tôi làm theo từng bước trong AWS Console.
+
+Phần user và group giúp tôi hiểu cách quản lý quyền gọn hơn. Thay vì gắn permission trực tiếp cho từng user, có thể đưa user vào group rồi quản lý permission ở group đó.
+
+Phần role là nội dung hữu ích nhất trong lab. Tôi hiểu rằng role không phải là một user đăng nhập bình thường. Role dùng khi cần quyền tạm thời, còn Switch Role giúp đổi ngữ cảnh quyền mà không cần chia sẻ credential dài hạn.
+
+### Tài liệu đã xem
+
+* Lab AWS Study Group về IAM Access Control.
+* AWS IAM documentation về policies và roles.
+* AWS Management Console trong quá trình thực hành.
+
 ### Tổng kết
 
 1. **IAM Group và User**: Group giúp quản lý quyền dễ và nhất quán hơn.
